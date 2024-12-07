@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in React 18+ related to state updates.  Calling `setCount` multiple times within a single function can lead to unpredictable behavior due to React's batching of updates.  The `bug.jsx` file shows the problematic code, while `bugSolution.jsx` provides a corrected version.
